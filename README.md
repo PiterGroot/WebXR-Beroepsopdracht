@@ -1,2 +1,2 @@
 # WebXR beroepsopdracht 
-## Teamleden: Tim en Piter
+### Teamleden: Tim en Piter
