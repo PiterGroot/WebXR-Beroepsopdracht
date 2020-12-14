@@ -1,5 +1,5 @@
 // voeg controls toe (teleport & WASD controls)
-const controls = new Controls(50);
+const controls = new Controls(1000);
 controls.enableMovement();
 
 // create a model
