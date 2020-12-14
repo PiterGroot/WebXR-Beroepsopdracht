@@ -3,10 +3,10 @@ const controls = new Controls(50);
 controls.enableMovement();
 
 // create a model
-const laddermodel = new Model('Models/ladder.gltf');
-laddermodel.setPosition(3.04114, 1.54, -9.55352);
-laddermodel.setScale(1.34, 0.1, 0.1);
-laddermodel.setRotation(0, -36.95, 0);
+const laddermodel = new Model('Models/ladder.obj');
+laddermodel.setPosition(0, 0, -10);
+laddermodel.setScale(0.01, 0.01, 0.01);
+
 
 // create some text
 const testText = new Text('Test WebXR');
