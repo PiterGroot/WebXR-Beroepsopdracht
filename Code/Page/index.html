@@ -3,7 +3,16 @@
 <head>
     <link rel="stylesheet" href="Style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script src="library/aframe.js"></script>
+    <script src="library/ma-webxr.js" defer></script>
+    <script src="app.js" defer></script>
+    <style>
+        a-scene {
+          width:500px;
+          height:200px;
+        }
+    </style>
 </head>
 <body>
     <h1>LAM - Lisser Art Museum</h1>
@@ -55,6 +64,7 @@
             openen. Als u geen vr bril heeft dan kunt u met de touchscreen van u apparaat rondkijken / lopen. Als u op een computer of laptop zit, kunt u dat met uw muis doen.
             Als u niet zeker weet wat voor browser u moet gebruiken dan kunt u een van de volgende browsers kiezen die het zowiezo doen; Chrome, Firefox, Internet Explorer, Opera en Safari.
         </p>
+        <a-scene background="color: white" embedded></a-scene>
     </div>
 
     

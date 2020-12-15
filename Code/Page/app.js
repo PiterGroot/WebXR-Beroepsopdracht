@@ -6,17 +6,17 @@ controls.enableMovement();
 const laddermodel = new Model('Models/ladder/scene.gltf');
 laddermodel.setPosition(3.092, 0, -4.073);
 laddermodel.setScale(0.015, 0.015, 0.015);
-laddermodel.setRotation(0, 0, 49.029)
+laddermodel.setRotation(0, 0, 49.029);
 
 //bucket model
-const bucketmodel = new Model('Models/bucket/scene.gltf')
-bucketmodel.setPosition(-1.82, 0.754, -4.355)
-bucketmodel.setScale(0.100, 0.100, 0.100)
+const bucketmodel = new Model('Models/bucket/scene.gltf');
+bucketmodel.setPosition(-1.82, 0.754, -4.355);
+bucketmodel.setScale(0.100, 0.100, 0.100);
 // create some text
 const testText = new Text('Test WebXR BO');
 testText.setPosition(1.5, 0, -5);
 testText.setFontsize(30);
-testText.setColor('darkblue')
+testText.setColor('darkblue');
 
 // create a 360 image
 const image360 = new Sky('Textures/skybox.jpg');
