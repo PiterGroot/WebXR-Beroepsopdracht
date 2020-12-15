@@ -1,0 +1,353 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5965,
+      "max": [
+        6.9834747314453125,
+        7.852421760559082,
+        16.37657356262207
+      ],
+      "min": [
+        -6.9834747314453125,
+        -7.7820391654968262,
+        -9.2178503109607846e-05
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 71580,
+      "componentType": 5126,
+      "count": 5965,
+      "max": [
+        0.9999922513961792,
+        0.99901849031448364,
+        1
+      ],
+      "min": [
+        -0.99999219179153442,
+        -0.99931669235229492,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5965,
+      "max": [
+        1,
+        0.99975866079330444,
+        0.99954456090927124,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99961650371551514,
+        -0.99981570243835449,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5965,
+      "max": [
+        0.99413299560546875,
+        0.99407398700714111
+      ],
+      "min": [
+        0.0035659999120980501,
+        0.0035659999120980501
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 47720,
+      "componentType": 5126,
+      "count": 5965,
+      "max": [
+        0.99413299560546875,
+        0.99407398700714111
+      ],
+      "min": [
+        0.0035659999120980501,
+        0.0035659999120980501
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 95440,
+      "componentType": 5126,
+      "count": 5965,
+      "max": [
+        0.99413299560546875,
+        0.99407398700714111
+      ],
+      "min": [
+        0.0035659999120980501,
+        0.0035659999120980501
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 26952,
+      "max": [
+        5964
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "romullus (https://sketchfab.com/romullus)",
+      "license": "CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)",
+      "source": "https://sketchfab.com/models/217dd46026ac4cfd947097ad3c466bf2",
+      "title": "Wooden Bucket"
+    },
+    "generator": "Sketchfab-4.1.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 107808,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143160,
+      "byteOffset": 107808,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 143160,
+      "byteOffset": 250968,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 95440,
+      "byteOffset": 394128,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 489568,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/WoodenBucket_normal.png"
+    },
+    {
+      "uri": "textures/WoodenBucket_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/WoodenBucket_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "WoodenBucket",
+      "normalTexture": {
+        "index": 0,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "WoodenBucket_WoodenBucket_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        4.1999999034203483e-09,
+        -0.070366352796554565,
+        -16.376468658447266,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "3c99a6f4df4f44f39a54e5979f66acef.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        0.99999999999999289,
+        1.1920928955078042e-07,
+        0,
+        0,
+        -1.1920928955078042e-07,
+        0.99999999999999289,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "WoodenBucket"
+    },
+    {
+      "mesh": 0,
+      "name": "WoodenBucket_WoodenBucket_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
