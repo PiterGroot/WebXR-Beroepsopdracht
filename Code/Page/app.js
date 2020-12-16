@@ -7,6 +7,11 @@ const laddermodel = new Model('Models/ladder/scene.gltf');
 laddermodel.setPosition(3.092, 0, -4.073);
 laddermodel.setScale(0.015, 0.015, 0.015);
 laddermodel.setRotation(0, 0, 49.029);
+//workbench model
+const workbenchmodel = new Model('Models/bench/scene.gltf')
+workbenchmodel.setPosition(-3.495, 0, -2.008);
+workbenchmodel.setScale(0.01, 0.01, 0.01)
+workbenchmodel.setRotation(0, -80.789, 0)
 
 //bucket model
 const bucketmodel = new Model('Models/bucket/scene.gltf');
