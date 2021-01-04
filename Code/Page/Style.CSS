@@ -5,6 +5,13 @@
 }
 .info, .folkert, .xr{
     font-family: 'Baloo 2', cursive;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.title{
+    border-left: solid 9px rgb(113, 113, 255);
+    padding-left: 9px;
+    background-color: rgb(85, 85, 255);
 }
 footer{
     flex: 1 0 auto;
