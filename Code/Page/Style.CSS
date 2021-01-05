@@ -64,7 +64,7 @@ nav li{
     flex: 1 0 330px;
 }
 nav li + li{
-    border-left: solid 2px wheat;
+    border-left: solid 4px rgb(113, 113, 255);
 }
 nav a{
     color: rgb(0, 0, 0);
