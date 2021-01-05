@@ -22,6 +22,7 @@ html{
 }
 .title{
     border-left: solid 9px rgb(113, 113, 255);
+    border-right: solid 9px rgb(113, 113, 255);
     padding-left: 9px;
     background-color: rgb(85, 85, 255);
     margin-bottom: 0px;
@@ -51,6 +52,7 @@ footer{
  nav{
     background-color: rgb(74, 74, 216);
     border-left: solid 9px rgb(113, 113, 255);
+    border-right: solid 9px rgb(113, 113, 255);
     margin-top: 0px;
     font-family: 'Ubuntu', sans-serif;
 }
