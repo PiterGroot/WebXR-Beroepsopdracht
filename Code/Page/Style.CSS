@@ -22,6 +22,7 @@ html{
     padding-left: 9px;
     background-color: rgb(85, 85, 255);
 }
+
 footer{
     flex: 1 0 auto;
     display: flex;
@@ -30,6 +31,7 @@ footer{
     background-color: rgb(0, 0, 0);
     color: white;
     margin-top: 20px;
+    padding-bottom: 0px;
  }
 
  body{
@@ -57,7 +59,7 @@ nav li + li{
     border-left: solid 2px wheat;
 }
 nav a{
-    color: wheat;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
     padding: 10px;
