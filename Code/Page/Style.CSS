@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
 .info{
     padding-top: 20px;
 }
@@ -36,3 +39,31 @@ footer{
  p{
     text-align: center;
  }
+ nav{
+    background-color: rgb(85, 85, 255);
+    border-left: solid 9px rgb(113, 113, 255);
+    margin-top: 0px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li{
+    flex: 1 0 330px;
+}
+nav li + li{
+    border-left: solid 2px wheat;
+}
+nav a{
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+nav a:hover{
+    background-color:black;
+    color:white;
+}
