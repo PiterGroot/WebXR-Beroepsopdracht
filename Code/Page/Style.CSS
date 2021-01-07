@@ -82,3 +82,8 @@ nav a:hover{
 #titel1{
     margin-top: 100px;
 }
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
