@@ -31,5 +31,8 @@ spotLight.setPosition(-3.39382, 4.72931, 1.37905);
 spotLight.setTarget(laddermodel);
 
 // listen for an event
-laddermodel.addEventListener('click', () => console.log('je klikt op mij'));
-bucketmodel.addEventListener('click', () => console.log('EMMER'));
+laddermodel.addEventListener('click', () => document.getElementById('extraText').innerHTML = "Ladder");
+bucketmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Emmer");
+bucketmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
+workbenchmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Werktafel");
+workbenchmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");

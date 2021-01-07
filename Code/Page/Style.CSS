@@ -82,6 +82,12 @@ nav a:hover{
 #titel1{
     margin-top: 100px;
 }
+#extraText{
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+    color:wheat;
+    font-size: 50px;
+}
 
 ul {
     text-align: center;
