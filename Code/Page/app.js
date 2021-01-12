@@ -1,6 +1,12 @@
+
+
 // voeg controls toe (teleport & WASD controls)
 const controls = new Controls(1000);
 controls.enableMovement();
+
+//room 
+const roommodel = new Model('Models/room/scene.gltf')
+roommodel.setPosition(0, -2.332, 0);
 
 //ladder model
 const laddermodel = new Model('Models/ladder/scene.gltf');
@@ -18,17 +24,18 @@ const bucketmodel = new Model('Models/bucket/scene.gltf');
 bucketmodel.setPosition(-1.82, 0.754, -4.355);
 bucketmodel.setScale(0.100, 0.100, 0.100);
 // create some text
-const testText = new Text('Test WebXR BO');
-testText.setPosition(1.5, 0, -5);
+const testText = new Text('WebXR atelier');
+testText.setPosition(-23.250, 19.523, -5);
 testText.setFontsize(30);
 testText.setColor('darkblue');
 
 // create a 360 image
 const image360 = new Sky('Textures/skybox.jpg');
 
-const spotLight = new SpotLight();
-spotLight.setPosition(-3.39382, 4.72931, 1.37905);
-spotLight.setTarget(laddermodel);
+//const spotLight = new SpotLight();
+//spotLight.setPosition(-5.168, 4.72931, -5.962);
+//spotLight.setType("point");
+//spotLight.setIntensity(0.64);
 
 // listen for an event
 laddermodel.addEventListener('click', () => document.getElementById('extraText').innerHTML = "Ladder");
