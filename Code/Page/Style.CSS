@@ -38,12 +38,19 @@ footer{
     color: white;
     padding:20px;
     margin-top: 10px;
+    margin-bottom: 0px;
  }
-
+a-scene{
+    width:800px;
+    height:520px;
+}
 
  body{
-      background-color:blue;
+      background-color:rgb(77, 77, 158);
       font-size: 23px;
+      overflow-x: hidden;
+      max-width: 100%;
+      height: auto; 
  }
  p{
     text-align: center;
@@ -93,6 +100,9 @@ nav a:hover{
 }
 #lam{
     margin-top: 50px;
+    width: 600px;
+    height: 380px;
+    border: solid 9px rgb(0, 0, 170);
 }
 ul {
     text-align: center;
