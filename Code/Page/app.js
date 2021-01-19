@@ -49,10 +49,10 @@ const image360 = new Sky('Textures/skybox.jpg');
 // listen for an event
 image.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Folkert de Jong Nihilist Table");
 image1.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Folker de Jong Cirkel van het leven");
-image.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "");
-image1.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "");
+image.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
+image1.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
 laddermodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Ladder");
-laddermodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "");
+laddermodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
 bucketmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Emmer");
 bucketmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
 workbenchmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Werktafel");
