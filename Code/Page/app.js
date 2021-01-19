@@ -12,7 +12,7 @@ const image = new XRImage('Textures/table.jpg');
 image.setPosition(-1.48819, 2.45839, -7.621);
 image.setScale(3, 3, 3);
 // create an image
-const image1 = new XRImage('Textures/circle.jpg');
+const image1 = new XRImage('Textures/circle.JPG');
 image1.setPosition(2, 2.45839, -7.621);
 image1.setScale(3, 3, 3);
 
