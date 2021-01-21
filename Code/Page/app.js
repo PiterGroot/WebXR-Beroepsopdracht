@@ -16,7 +16,6 @@ const image1 = new XRImage('Textures/circle.JPG');
 image1.setPosition(2, 2.45839, -7.621);
 image1.setScale(3, 3, 3);
 
-
 //ladder model
 const laddermodel = new Model('Models/ladder/scene.gltf');
 laddermodel.setPosition(15.535, -0.434, -7.295);
@@ -40,11 +39,6 @@ testText.setColor('darkblue');
 
 // create a 360 image
 const image360 = new Sky('Textures/skybox.jpg');
-
-//const spotLight = new SpotLight();
-//spotLight.setPosition(-5.168, 4.72931, -5.962);
-//spotLight.setType("point");
-//spotLight.setIntensity(0.64);
 
 // listen for an event
 image.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Folkert de Jong Nihilist Table");

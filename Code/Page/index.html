@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <link rel="stylesheet" href="Style.CSS">
     <meta charset="UTF-8">
@@ -7,10 +7,11 @@
     <script src="library/aframe.js"></script>
     <script src="library/ma-webxr.js" defer></script>
     <script src="app.js" defer></script>
+    <title>LAM - WebXR</title>
     <style>
         a-scene {
             padding:0;
-            width:1000x;
+            width:1000px;
             height:620px;
             border: solid 9px rgb(184, 176, 162);
         }    
@@ -26,63 +27,65 @@
             <li><a href="#vr">WebXR component</a></li>
         </ul>
     </nav>
-    <div>
+    
     <main>
         <div>
             <img class="center" id="lam" src="../../Fotos/LAM.jpg" alt="Foto van het lam museum">
         </div>
-    <p id="titel1" class="wheat"><strong>Algemene info LAM</strong></p>
-    <p1 class="info">
-        Als het om foodart gaat, dan is het LAM (lisser art museum) perfect voor jou! Hier vind je
-        namelijk de meest innovatief, persoonlijk en internationale topstukken. Het doel van het
-        LAM is dat het museum je anders laat denken bij bepaalde onderwerpen / kunstwerken.
-        Ook kan je op deze pagina in het atelier duiken van de kunstenaar Folkert de Jong
-        doormiddel van het WebXR deel (zie uitleg WebXR voor instructies). Daarnaast is het LAM
-        uiterst geschikt voor bezoekers van jong tot oud en weinig ervaring met kunst tot ervaren
-        kunst kenners! De contactgegevens van het LAM:
-    </p1>
-    <ul class="info">
-        <li id="folkert">Adres: Keukenhof 14, 2161 AN Lisse</li>
-        <li>telefoonnummer: 0252 508 800</li>
-        <li>Email: info@lamlisse.nl</li>
-    </ul>
-    </div>
-    <div>
-    <p class="wheat"><strong>Folkert de Jong</strong></p>
-    <p1 class="folkert">
-        Folkert de Jong is geboren in 1972. Folkert is een Nederlandse kunstenaar. Hij
-        maakt voornamelijk grootschalige sculptuur / installaties / stillevens. Folkert
-        werd geboren in Egmond aan zee. Veel van Folkerts werk kan je een beetje
-        griezelig oftewel licht horror noemen. Folkert heeft redelijk veel prijzen en
-        beloningen gekregen voor zijn werk, bijvoorbeeld de RAI Art Fair Prize
-        Amsterdam, of Den Haag Sculpture ‘Orange Award’. Folkert de Jong heeft ook
-        op veel plekken gewoond, zoals in New York en Rotterdam en in Noorwegen
-        (bergen). De contactgegevens van Folkert:
-    </p1>
-    <ul class="folkert" id="xr">
-        <li>Adres: Amsterdam, The Netherlands</li>
-        <li>Email: info@studiofolkertdejong.com</li>
-        <li>Studio Folkert de Jong</li>
-    </ul>
-    </div>
-    <div>
-        <p class="wheat"><strong>Wat is WebXR?</strong></p>
-        <p1 class="xr">
-            Het doel van het LAM is dat het je op zo veel mogelijk manieren en ervaringen de kustwerken kan beleven. Daar is WebXR een heel goed voorbeeld van.
-            WebXR (vroeger ook wel bekend als WebVR) is een online virtuel reality component dat zonder enkele restricties in de web browser werkt. Dit kunt u beleven met en
-            zonder een VR bril. Het mooie is namelijk dat het op vrijwel elk apparaat werkt, telefoon, computer, laptop, tablets, ect. Dus op deze pagina krijgt u nu de kans
-            om in het atelier van de kunstenaar Folker de Jong te duiken.
-        </p1>
-        <p class="xr">
-            Maar hoe werkt het nou eigenlijk? Ga via een browser (bijv. firefox of google chrome) naar de website. Druk op de knop rechts onder in het scherm om het spel in vr te
-            openen. Als u geen vr bril heeft dan kunt u met de touchscreen van u apparaat rondkijken / lopen. Als u op een computer of laptop zit, kunt u dat met uw muis doen.
-            Als u niet zeker weet wat voor browser u moet gebruiken dan kunt u een van de volgende browsers kiezen die het zowiezo doen; Chrome, Firefox, Internet Explorer, Opera en Safari.
-        </p>
+        <div>
+        <p id="titel1" class="wheat"><strong>Algemene info LAM</strong></p>
+            <p class="info">
+             Als het om foodart gaat, dan is het LAM (lisser art museum) perfect voor jou! Hier vind je
+             namelijk de meest innovatief, persoonlijk en internationale topstukken. Het doel van het
+             LAM is dat het museum je anders laat denken bij bepaalde onderwerpen / kunstwerken.
+             Ook kan je op deze pagina in het atelier duiken van de kunstenaar Folkert de Jong
+             doormiddel van het WebXR deel (zie uitleg WebXR voor instructies). Daarnaast is het LAM
+             uiterst geschikt voor bezoekers van jong tot oud en weinig ervaring met kunst tot ervaren
+             kunst kenners! De contactgegevens van het LAM:
+            </p>
+        <ul class="info">
+             <li id="folkert">Adres: Keukenhof 14, 2161 AN Lisse</li>
+             <li>telefoonnummer: 0252 508 800</li>
+             <li>Email: info@lamlisse.nl</li>
+        </ul>
+        </div>
+        <div>
+            <p class="wheat"><strong>Folkert de Jong</strong></p>
+                <p class="folkert">
+                 Folkert de Jong is geboren in 1972. Folkert is een Nederlandse kunstenaar. Hij
+                 maakt voornamelijk grootschalige sculptuur / installaties / stillevens. Folkert
+                 werd geboren in Egmond aan zee. Veel van Folkerts werk kan je een beetje
+                 griezelig oftewel licht horror noemen. Folkert heeft redelijk veel prijzen en
+                 beloningen gekregen voor zijn werk, bijvoorbeeld de RAI Art Fair Prize
+                 Amsterdam, of Den Haag Sculpture ‘Orange Award’. Folkert de Jong heeft ook
+                 op veel plekken gewoond, zoals in New York en Rotterdam en in Noorwegen
+                 (bergen). De contactgegevens van Folkert:
+                </p>
+        <ul class="folkert" id="xr">
+            <li>Adres: Amsterdam, The Netherlands</li>
+            <li>Email: info@studiofolkertdejong.com</li>
+            <li>Studio Folkert de Jong</li>
+        </ul>
+        </div>
+        <div>
+            <p class="wheat"><strong>Wat is WebXR?</strong></p>
+                <p class="xr">
+                 Het doel van het LAM is dat het je op zo veel mogelijk manieren en ervaringen de kustwerken kan beleven. Daar is WebXR een heel goed voorbeeld van.
+                 WebXR (vroeger ook wel bekend als WebVR) is een online virtuel reality component dat zonder enkele restricties in de web browser werkt. Dit kunt u beleven met en
+                 zonder een VR bril. Het mooie is namelijk dat het op vrijwel elk apparaat werkt, telefoon, computer, laptop, tablets, ect. Dus op deze pagina krijgt u nu de kans
+                 om in het atelier van de kunstenaar Folker de Jong te duiken.
+                </p>
+                <p class="xr">
+                 Maar hoe werkt het nou eigenlijk? Ga via een browser (bijv. firefox of google chrome) naar de website. Druk op de knop rechts onder in het scherm om het spel in vr te
+                 openen. Als u geen vr bril heeft dan kunt u met de touchscreen van u apparaat rondkijken / lopen. Als u op een computer of laptop zit, kunt u dat met uw muis doen.
+                 Als u niet zeker weet wat voor browser u moet gebruiken dan kunt u een van de volgende browsers kiezen die het zowiezo doen; Chrome, Firefox, Internet Explorer, Opera en Safari.
+                </p>
+        </div>
         <div id="extraText">...</div>
         <a-scene id="vr" class="center" background="color: white" embedded>
             <a-light type="point" position="-5.168, 4.72931, -5.962" intensity="1.04"></a-light>
         </a-scene>
-    </div>
+        
     </main>
     <footer>
         <p> 
