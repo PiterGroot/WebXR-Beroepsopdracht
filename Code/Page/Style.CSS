@@ -9,7 +9,6 @@ html{
 }
 .info, .folkert, .xr{
     font-family: 'Baloo 2', cursive;
-    margin-bottom: 10px;
     margin-top: 10px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -42,7 +41,7 @@ footer{
  }
 
 
- body{
+body{
       background-color:#997054;
       font-size: 23px;
       overflow-x: hidden;
@@ -114,12 +113,24 @@ ul {
     margin-right: auto;
     width: 50%;
 }
-.wheat{
+#color{
     color:#997054;
+}
+#color1{
+    color: wheat;
 }
 #kader{
     background-color: wheat;
     padding-top: 2px;
     margin-top: 100px;
+    margin-bottom: 0;
+}
+#kader1{
+    background-color: #816a5b;
+   padding-top: 10px;
+}
+#kader2{
+    background-color: rgb(129, 126, 91);
+    padding-top: 10px;
 }
 
