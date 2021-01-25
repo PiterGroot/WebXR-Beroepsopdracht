@@ -20,6 +20,7 @@ html{
     
 }
 .title{
+    border-top: solid 9px rgb(184, 176, 162);
     border-left: solid 9px rgb(184, 176, 162);
     border-right: solid 9px rgb(184, 176, 162);
     padding-left: 9px;
