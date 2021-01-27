@@ -23,13 +23,13 @@ laddermodel.setScale(0.025, 0.025, 0.025);
 laddermodel.setRotation(0, 0, 49.029);
 //workbench model
 const workbenchmodel = new Model('Models/bench/scene.gltf')
-workbenchmodel.setPosition(-12.896, -0.903, 0.062);
+workbenchmodel.setPosition(-6.365, -1.495, 2.212);
 workbenchmodel.setScale(0.03, 0.03, 0.03)
-workbenchmodel.setRotation(0, -13.05, 0)
+workbenchmodel.setRotation(0, 17.863, 0)
 
 //bucket model
 const bucketmodel = new Model('Models/bucket/scene.gltf');
-bucketmodel.setPosition(-11.976, 0.754, -4.365);
+bucketmodel.setPosition(-7.042, 0.235, -2.089);
 bucketmodel.setScale(0.10, 0.10, 0.10);
 // create some text
 const testText = new Text('WebXR atelier');
