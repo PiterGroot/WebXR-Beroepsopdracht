@@ -38,6 +38,16 @@ chandeliermodel1.setScale(0.035, 0.035, 0.035);
 const bucketmodel = new Model('Models/bucket/scene.gltf');
 bucketmodel.setPosition(-7.042, 0.235, -2.089);
 bucketmodel.setScale(0.10, 0.10, 0.10);
+//human model
+const humanmodel = new Model('Models/human/scene.gltf')
+humanmodel.setPosition(-3.920, -1.377, 7.237);
+humanmodel.setScale(0.052, 0.052, 0.052);
+humanmodel.setRotation(-45.862, 20.191, 2.847);
+//shelf model
+const shelfmodel = new Model('Models/shelf/scene.gltf')
+shelfmodel.setPosition(12.559, -1.359, -0.733);
+shelfmodel.setScale(3.5, 3.5, 3.5);
+shelfmodel.setRotation(0, -90, 0);
 // create some text
 const testText = new Text('WebXR atelier');
 testText.setPosition(-23.250, 19.523, -5);
@@ -54,6 +64,10 @@ image.addEventListener('mouseleave', () => document.getElementById('extraText').
 image1.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
 laddermodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Ladder");
 laddermodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
+humanmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Etalagepop");
+humanmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
+shelfmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML = "Kast");
+shelfmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
 bucketmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Emmer");
 bucketmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
 workbenchmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Werktafel");
