@@ -16,6 +16,15 @@ const image1 = new XRImage('Textures/circle.JPG');
 image1.setPosition(2, 2.45839, -7.621);
 image1.setScale(3, 3, 3);
 
+// create an image
+const image2 = new XRImage('Textures/stilleven.jpg');
+image2.setPosition(0.453, 2.458, 9.389);
+image2.setScale(3, 3, 3);
+// create an image
+const image3 = new XRImage('Textures/assemblage.jpg');
+image3.setPosition(4.558, 2.458, 9.336);
+image3.setScale(3, 3, 3);
+
 //ladder model
 const laddermodel = new Model('Models/ladder/scene.gltf');
 laddermodel.setPosition(15.535, -0.434, -7.295);
@@ -45,9 +54,14 @@ humanmodel.setScale(0.052, 0.052, 0.052);
 humanmodel.setRotation(-45.862, 20.191, 2.847);
 //shelf model
 const shelfmodel = new Model('Models/shelf/scene.gltf')
-shelfmodel.setPosition(12.559, -1.359, -0.733);
+shelfmodel.setPosition(12.559, -1.359, -2.574);
 shelfmodel.setScale(3.5, 3.5, 3.5);
 shelfmodel.setRotation(0, -90, 0);
+//workbench1
+const workbench1 = new Model('Models/workbench/scene.gltf')
+workbench1.setPosition(11.999, -1.364, 4.395);
+workbench1.setScale(3.3, 3.3, 3.3);
+workbench1.setRotation(0, 180, 0);
 // create some text
 const testText = new Text('WebXR atelier');
 testText.setPosition(-23.250, 19.523, -5);
@@ -70,5 +84,11 @@ shelfmodel.addEventListener('mouseenter', () => document.getElementById('extraTe
 shelfmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML = "...");
 bucketmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Emmer");
 bucketmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
-workbenchmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Werktafel");
+workbenchmodel.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Tafel");
 workbenchmodel.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
+workbench1.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Werktafel");
+workbench1.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
+image2.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Folkert de Jong Stilleven");
+image2.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
+image3.addEventListener('mouseenter', () => document.getElementById('extraText').innerHTML= "Folkert de Jong Assemblage");
+image3.addEventListener('mouseleave', () => document.getElementById('extraText').innerHTML= "...");
