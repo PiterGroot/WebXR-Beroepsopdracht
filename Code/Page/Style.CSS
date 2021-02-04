@@ -136,29 +136,39 @@ ul {
     font-size: 30px;
 }
 /*Code Gemaakt door Tim de Vries*/
-#fotosfolkert {
-    overflow: auto;
-    white-space: nowrap;
+#slideShow{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 620px;
-    background-color: rgb(184, 176, 162);
+    background-color: blanchedalmond;
+    width: 720px;
+    height: 620px;
+}
+#slideShow .slideImage{
     
-    }
-#fotosfolkert img{
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    max-width: 600px;
-    height: 500px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 600px;
+}
+#slideShow #slideToRight{
+    position: relative;
+    bottom: 50%;
+    left: 87%;
     
 }
-#fotosfolkert::-webkit-scrollbar {
-    width: auto;
-  }
-#fotosfolkert::-webkit-scrollbar-thumb {
-    background: #503c2e;
-    border-radius: 20px;
+#slideShow #slideToLeft{
+    position: relative;
+    bottom: 50%;
+    left: 3%;
+    
+}
+#slideShow .slideKnop{
+    font-size: 40px;
+    color: white;
+    height: 10px;
+    background-color: black;
+    opacity: 60%;
+    border-radius: 10%;
 }

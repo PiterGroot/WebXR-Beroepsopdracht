@@ -7,6 +7,7 @@
     <script src="library/aframe.js"></script>
     <script src="library/ma-webxr.js" defer></script>
     <script src="app.js" defer></script>
+    <script type="text/javascript" src="library/slideshow.js"></script>
     <title>LAM - WebXR</title>
     <style>
         a-scene {
@@ -17,7 +18,7 @@
         }    
     </style>
 </head>
-<body>
+<body onload="changeImage(1);">
     <h1 class='title'>LAM - Lisser Art Museum</h1>
     <nav>
         <ul>
@@ -69,13 +70,18 @@
             </ul>
 
             <!--Gemaakt door Tim de Vries-->
-            <div id=fotosfolkert alt="Foto's van kunstwerken Folker">
-                <img class="kunstwerk" src="Textures/assemblage.jpg">
-                <img class="kunstwerk" src="Textures/circle.jpg">
-                <img class="kunstwerk" src="Textures/stilleven.jpg">
-                <img class="kunstwerk" src="Textures/table.jpg">
+
+
+            <div id=slideShow>
+
+                <div style="height: 10px;"></div>
+                <img class="slideImage" src="Textures/assemblage.jpg" style="width: 700px; height: 600px;">
+                <img class="slideImage" src="Textures/circle.JPG" style="width: 700px; height: 600px;">
+                <img class="slideImage" src="Textures/stilleven.jpg" style="width: 700px; height: 600px;">
+                <img class="slideImage" src="Textures/table.jpg" style="width: 700px; height: 600px;">
+                <span onclick="slide(-1)" id="slideToLeft" class="slideKnop">&#8202;&#8202;&#10094;&#8202;&#8202;</span>
+                <span onclick="slide(1)" id="slideToRight" class="slideKnop">&#8202;&#8202;&#10095;&#8202;&#8202;</span>
             </div>
-            <div style="height: 30px;"></div>
             <!--Tot en met hier-->
 
 
